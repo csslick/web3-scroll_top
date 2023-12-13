@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위로 스크롤하는 버튼</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <!-- 
+        1. 일정부분 아래로 화면이 내려가면(스크롤): scroll_top 버튼 활성화
+        2. 해당 버튼을 누르면 맨 위로 이동(a버튼으로 내부페이지 이동)
+        3. smooth scroll(부드럽게 페이지 이동) 처리
+     -->
+    <header>
+        <div class="container">
+            <h1>portfolio</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h1>home</h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h1>about</h1>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1>portfolio</h1>
+        </div>
+    </section>
+
+    <a href="#" class="btn-top">TOP</a>
+</body>
+</html>
