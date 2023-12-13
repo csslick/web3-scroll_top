@@ -8,10 +8,22 @@ html {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
 }
 
 section {
@@ -40,6 +52,7 @@ section .container {
 header {
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 header h1 {
   color: #fff;
